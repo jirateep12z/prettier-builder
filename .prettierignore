@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+build/
+
+# cache
+.cache/
+
+# coverage
+coverage/
+
+# lock_files
+*.lock
+*.lockb
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# minified
+*.min.js
+*.min.css
+
+# environment
+.env
+.env.*
+
+# vite
+dist-ssr/
+.vite/

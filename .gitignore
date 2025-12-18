@@ -1,0 +1,54 @@
+# dependencies
+node_modules/
+
+# lock_files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lock
+bun.lockb
+
+# build
+dist/
+
+# cache
+.cache/
+.npm/
+
+# coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# environment
+.env
+.env.*
+!.env.example
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ide
+.DS_Store
+.idea/
+*.tsbuildinfo
+.eslintcache
+
+# vite
+dist-ssr/
+.vite/
+temp/
+*.local
+
+# vite_cache
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# misc
+.stylelintcache
+*.tgz
